@@ -3,7 +3,9 @@
 ### esxi servers in the get command (can be filtered)
 ### must be run within a folder with the executables:
 ### plink, pscp 
-### 
+### It also requires a file for just a copy operation for
+### the pscp tool, and preferably put all files in the same
+### folder so no need for environment variables.
 ### outputs alot of messages that can be ignored or stored
 ### in a variable.
 ### It starts the ssh before and stops it after it finishes.
